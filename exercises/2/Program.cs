@@ -8,7 +8,7 @@ namespace _2
         {
             Console.Write("Digite um número: ");
 
-            var number = int.Parse(Console.ReadLine());
+            var number = float.Parse(Console.ReadLine());
 
             Console.WriteLine($"O número informado foi {number}");
         }
