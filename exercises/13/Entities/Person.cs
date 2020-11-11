@@ -15,12 +15,12 @@ namespace _13.Entities
 
         public float IdealWeightForMen()
         {
-            return ((float)72.7 * Height) - 58;
+            return (72.7F * Height) - 58;
         }
 
         public float IdealWeightForWomen()
         {
-            return ((float)62.1 * Height) - (float)44.7;
+            return (62.1F * Height) - 44.7F;
         }
     }
 }

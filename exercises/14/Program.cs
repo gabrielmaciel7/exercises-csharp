@@ -30,7 +30,7 @@ namespace _14
 
         static float CalculateFine(float excess)
         {
-            float finePerKg = 4;
+            var finePerKg = 4F;
 
             return excess * finePerKg;
         }

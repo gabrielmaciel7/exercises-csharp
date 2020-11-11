@@ -15,7 +15,7 @@ namespace _12.Entities
 
         public float IdealWeight()
         {
-            return ((float)72.7 * Height) - 58;
+            return (72.7F * Height) - 58;
         }
     }
 }
