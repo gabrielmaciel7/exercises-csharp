@@ -6,7 +6,7 @@ namespace _23
     {
         static void Main(string[] args)
         {
-            Console.Write("Digite um número inteiro: ");
+            Console.Write("Digite um número: ");
             var number = double.Parse(Console.ReadLine());
 
             var isDecimal = Math.Round(number) != number;
